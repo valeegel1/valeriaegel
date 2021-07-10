@@ -1,0 +1,73 @@
+html , body{
+    height: 100%;
+    width: 100%;
+}
+.nav-link , span{
+    cursor: pointer;
+     cursor: hand;
+}
+.principal{
+    background-color: #6C757D;  /*#ced4da; */
+    width: 100vw;
+    height: 100vh;
+   margin: 0%;
+   padding: auto;
+}
+navbar{
+ width: 100vw;
+}
+
+.icono{
+    height: 40px;
+    margin-left: 15px;
+}
+
+.contenido{
+    font-family: 'Cedarville Cursive', cursive;
+    align-items: center;
+    justify-content: center;
+    margin:0%;
+}
+
+.desc1 , .desc{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+.programadora {
+    clip-path: circle(50% at 50% 50%);
+}
+
+.seccion1{
+    align-items: center;
+    background-color: #dee2e6;
+    height: 100vh;
+    width: 100vw;
+    margin: 0%;
+}
+.tecnologias , .hobbies{
+    display: grid;
+    font-size: 1.2rem;
+    font-family:'Lucida Sans';
+}
+p{
+    color: #001524;
+    font-weight: bolder;
+    font-family: cursive;
+}
+.foto , .contenido , .redes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: contain;
+}
+span{
+    font-size: 1.5rem;
+    color: rgb(7, 9, 27);
+    font-family: cursive;
+}
+.redes{
+background-color: rgb(77, 133, 136);
+width: 100vw;
+}
+

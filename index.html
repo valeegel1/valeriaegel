@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi pagina</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-secondary">    
+    <img src="./favicon.ico" class="icono" alt="icono">
+        <a  class="navbar-brand" style="margin-left: 20px; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Valeria Egel</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation" 
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-md-auto navbar-left">
+            <li class="nav-item">
+            <a onclick="click1()" id="principal"class="nav-link" >Inicio</a>
+            </li>
+            <li  class="nav-item">
+              <a   onclick="click2()" id="sobremi"class="nav-link" >Sobre mi</a>
+            </li>
+            <li class="nav-item">
+               <a  onclick="click3()" class="nav-link"  style="margin-right: 10px;" >Contacto</a> 
+            </li>
+          </ul>
+        </div>
+      </nav> 
+     <div id="principal"class="principal row">
+       <div class=" contenido col-sm-12 col-xl-6">
+         <h1 class="desc1 container">¡Hola! Soy Vale <br> Tengo conocimientos sobre programación web y estoy por comenzar la carrera de Ingenieria en Sistemas de Información</h1>
+       </div>
+       <div class="contenido container col-sm-12 col-xl-6">
+          <img class="programadora"src="./Programadora.jpg" height="350px" alt="Programadora">
+       </div>
+     </div>
+
+      <div id="seccion1" class="seccion1 row">
+        <div class="tecnologias container col-xl-3 col-md-3 col-6">
+            <p style="text-align: center;"><strong>TECNOLOGIAS QUE CONOZCO:</strong> </p>
+             <ol>
+                  <li>HTML</li>
+                  <li>Css</li>
+                  <li>JavaScript</li>
+                  <li>Bootstrap</li>
+                  <li>jQuery</li>
+              </ol>
+        </div>
+        <div class="foto container col-xl-3 col-md-3 col-6">
+           <img height="210px" src="./tecnologias.png" alt="Tecnologias">
+        </div>
+        <div class="hobbies container col-xl-3 col-md-3 col-6">
+           <ul>
+               <p style="text-align: center;"><strong> MIS HOBBIES:</strong></p>
+               <li>Escuchar Música</li>
+                 <li>Usar la compu</li>
+                 <li>Ir al gym</li>
+                 <li>Tomar mates</li>
+             </ul>
+        </div>
+        <div class="foto container col-xl-3 col-md-3 col-6">
+            <img height="210px" src="./hobbies.jpg" alt="Hobie">
+        </div>
+     </div> 
+     <footer id="contacto" class="pie row">
+       <div class="redes container col-sm-12 col-xl-4">
+         <a  href="#" onclick="github()"><img height="50px" src="./Github.png" alt="GitHub"></a>
+         <span onclick="github()">valeegel1</span>
+       </div>
+       <div class="redes container col-sm-12 col-xl-4">
+          <a href="#" onclick="gmail()"><img height="40px" src="./Gmail.png" alt="gmail"></a> 
+        <span onclick="gmail()">valeriaegel@gmail.com</span>
+       </div>
+       <div  class="redes container col-sm-12 col-xl-4">
+         <a href="#" onclick="instagram()"><img height="50px" src="./Instagram.png" alt="Instagram"></a>
+        <span onclick="instagram()">@valeegel</span> 
+       </div>
+     </footer>
+    <script src="./script.js"></script>   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
