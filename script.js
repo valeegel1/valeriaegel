@@ -15,7 +15,7 @@ function click3 (){
 }
 
 function github() {
-    window.open( "https://github.com/valeegel1");
+    window.open( "https://github.com/valeriaegel");
 }
 
 function gmail() {
